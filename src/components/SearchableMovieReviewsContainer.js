@@ -26,7 +26,7 @@ class SearchableMovieReviewsContainer extends Component {
 
     handleSearchInputChange = event => {
         this.setState({
-            searchTerm: event.target.value 
+            searchTerm: event.target.value
         })
     };
 
